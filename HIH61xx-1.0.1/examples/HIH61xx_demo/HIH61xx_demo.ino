@@ -34,8 +34,6 @@ void loop(void)
     Serial.print("Ambient: ");
     Serial.print(hih.getAmbientTemp() / 100.0);
     Serial.println(" deg C");
-    Serial.print("Status: ");
-    Serial.println(hih.getStatus());
   }
   
 }
